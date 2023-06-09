@@ -14,7 +14,8 @@ Open the  database.py file and update the MongoDB and MySQL connection details.
 Make sure you have a MongoDB database and collection created to store the harvested data.
 Create a MySQL database and tables to store the migrated data.
 
-Harvest YouTube Data:
+## Harvest YouTube Data:
+![Screenshot 2023-06-09 164753](https://github.com/SRIDHAR3131/YouTube-Data-Harvesting/assets/68391060/d0ffd6a0-fe35-4b9a-8894-d863b943dee3)
 
 Run the Youtube.py script.
 Provide the channel ID as user input.
