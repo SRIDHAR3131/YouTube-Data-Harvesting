@@ -4,7 +4,7 @@ This project aims to harvest data from YouTube using Python scripting and store 
 Prerequisites
 Before running the scripts, make sure you have the following dependencies installed:
 
-- Python (version X.X.X)
+- Python 3.9 or later
 - MongoDB
 - MySQL
 
@@ -20,16 +20,21 @@ Run the Youtube.py script.
 Provide the channel ID as user input.
 The script will fetch the channel data from YouTube using the YouTube Data API and store it in the MongoDB database as a data lake.
 
-Fetch Uploaded Channel Information:
+## Upload Channel Information:
+![Screenshot 2023-06-09 002919](https://github.com/SRIDHAR3131/YouTube-Data-Harvesting/assets/68391060/0d3d096b-11f1-42e8-8dad-9668adacef79)
 
-Run the function_to_fetch.py script.
+Run the function_upload_fetch.py script.
 Provide the necessary parameters (e.g., channel ID) as user input.
 The script will fetch the uploaded channel information from the MongoDB database.
-Migrate Data to MySQL:
+
+## Migrate Data to MySQL:
+![Screenshot 2023-06-09 001705](https://github.com/SRIDHAR3131/YouTube-Data-Harvesting/assets/68391060/ca1890a2-cf35-4d8e-b288-eec8a8cf30c2)
 
 Run the migrate_to_mysql.py script.
 The script will migrate the fetched data from the MongoDB database to the MySQL database for further analysis.
-Execute SQL Queries:
+
+## Execute SQL Queries:
+![Screenshot 2023-06-09 004012](https://github.com/SRIDHAR3131/YouTube-Data-Harvesting/assets/68391060/d61a59a1-afcd-4947-ac96-99f6d223d65b)
 
 Run the execute_sql_queries.py script.
 Write SQL queries in the script to answer specific questions related to the uploaded channel information.
